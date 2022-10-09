@@ -94,6 +94,7 @@ header{
 }
 
 header .user img{
+    margin-top: 40px;
     height:17rem;
     width:17rem;
     border-radius: 50%;
@@ -277,6 +278,10 @@ header .navbar ul li a:hover{
     background:var(--yellow);
 }
 
+.education .box-container .box i:hover{
+    background-color: black;
+}
+
 .awards .box-container{
     display: flex;
     align-items: center;
@@ -325,6 +330,10 @@ header .navbar ul li a:hover{
     font-size: 2rem;
     color:#fff;
     background:var(--yellow);
+}
+
+.awards .box-container .box i:hover{
+    background-color: black;
 }
 
 .portfolio .box-container{
